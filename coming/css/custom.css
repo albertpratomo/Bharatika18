@@ -1,0 +1,187 @@
+@font-face {
+	font-family: 'NeuzeitReg';
+	src: url('../ttf/Neuzeit Grotesk Regular.ttf');
+}
+
+@font-face {
+	font-family: 'NeuzeitBold';
+	src: url('../ttf/Neuzeit Grotesk Bold.ttf');
+}
+
+@font-face {
+	font-family: 'FuturaPTBook';
+	src: url('../ttf/FuturaPTBook.otf');
+}
+
+@font-face {
+	font-family: 'FuturaPTDemi';
+	src: url('../ttf/FuturaPTDemi.otf');
+}
+
+@font-face {
+	font-family: 'Athene';
+	src: url('../ttf/Athene.otf');
+}
+
+html{
+	width:100vw;
+	height:100vh;
+	background: linear-gradient(-120deg, #4E0010, #111111);
+}
+
+body{
+	padding-bottom: 3em;
+	background: linear-gradient(-120deg, #4E0010, #111111);
+}
+
+.btn {
+	background: rgba(0, 0, 0, 0);
+	border: 1px solid #CF9864;
+	font-family: NeuzeitReg;
+	text-align: center;
+	letter-spacing: 3px;
+	transition: all 1s ease;
+	border-radius: 15px;
+}
+
+.btn:hover, .btn:active {
+	background: #CF9864;
+	color: #7C122B;
+	border: 1px solid #CF9864;
+}
+
+
+h1 {
+	font-size: 50px;
+	font-family: 'NeuzeitBold';
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	color: #FFFFFF;
+}
+
+h2 {
+	font-size: 20px;
+	font-family: 'NeuzeitBold';
+	text-transform: uppercase;
+	letter-spacing: 10px;
+	color: #FFFFFF;
+}
+
+img#c1{
+	position:absolute;
+	z-index:0;
+}
+img#c2{
+	position:absolute;
+	z-index:1;
+	transform: rotate(21deg);
+}
+img#c3{
+	position:absolute;
+	z-index:1;
+	transform: rotate(-30deg);
+}
+img#c4{
+	position:absolute;
+	z-index:1;
+	transform: rotate(75deg);
+}
+
+.buttons{
+	margin-top: 20vh;
+}
+
+.cclock{
+	 margin-top:3em;
+}
+
+@media (max-width: 1024px) { /*landcape ipad*/
+	.btn{
+		font-size:11px;
+		letter-spacing: 2px;
+	}
+	h1{
+		font-size:45px;
+	}
+	div.cclock{
+		margin-top: 7em;
+	}
+}
+
+@media (max-width: 991px) { /*portrait ipad*/
+	.btn{
+		font-size:12px;
+		letter-spacing: 3px;
+	}
+	.buttons{
+		margin-top: 11vh;
+	}
+	h2{
+		font-size:20px;
+		text-align:center;
+		letter-spacing: 3px;
+	}
+	h1{
+		margin-top: 15px;
+		font-size: 40px;
+		text-align:center;
+	}
+	.text{
+		margin-top: 2em;
+	}
+	.clock{
+		margin-top: 3vh;
+		margin-left:23%;
+		height:35vh;
+	}
+	div.cclock{
+		margin-top: 3em;
+	}
+}
+
+@media (max-width: 767px) { /*mobile*/
+	body{font-size: 10px;}
+	.btn{
+		font-size:10px;
+		letter-spacing: 2px;
+	}
+	.buttons{
+		margin-top: 14vh;
+	}
+	h2{
+		font-size:12px;
+		text-align:center;
+		letter-spacing: 3px;
+	}
+	h1{
+		margin-top: 10px;
+		font-size: 30px;
+		text-align:center;
+	}
+	.text{
+		margin-top: 1em;
+	}
+	.clock{
+		margin-top: 10vh;
+		margin-left:21%;
+		height:28vh;
+	}
+}
+
+@media (max-width: 330px) { /*small mobile*/
+	.btn{
+		font-size:9px;
+		letter-spacing: 1px;
+	}
+	.buttons{
+		margin-top: 11vh;
+	}
+}
+
+@media (min-width: 991px) { /*desktop*/
+	.text{
+		margin-left:20px;
+		margin-top:3em;
+	}
+}
+

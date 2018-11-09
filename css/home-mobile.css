@@ -1,0 +1,147 @@
+@media (max-width:450px){
+.modal-content {
+    width: 90%;
+    top: 10vh;
+}
+}
+aside#fh5co-hero .flexslider{
+    background-size: auto 100%;
+    background-image: url(../images/home/van2.jpg);    
+}
+aside#fh5co-hero .col-xs-12{
+    margin-top:40px;
+}
+div.puisi{
+	background-size: auto 100%;
+    background-position: right top;
+    background-repeat: no-repeat;
+    padding: 150px 0 80px 0;
+    margin-top: -150px;
+}
+
+img#circle-1{
+	width: 13vh;
+    margin-top: 0px;
+    z-index: -1;
+}
+img#circle-2{
+	left: -100px;
+    margin-top: 130px;
+}
+img#circle-3{
+	width: 120px;
+    right: -40px;
+    margin-top: -50px;
+}
+img#circle-4{
+	width: 50px;
+    right: -20px;
+    margin-top: 80px;
+}
+img#circle-5{
+    width: 24vh;
+    right: -17vw;
+    margin-top: 22vh;
+}
+
+div.ourevents{
+    margin-top: 0;
+    background-size: auto 80%;
+    background-repeat: repeat;
+}
+
+div.divtimeline{
+	padding: 70px 0 280px 0;
+    background-position: right;
+    background-size: auto 90%;
+}
+div.divtimeline .van-timeline{
+	display:block;
+	position: relative;
+	top: 130px;
+}
+img#pat-timeline{
+    z-index: -3;
+    width: 400px;
+    height: auto;
+    left: -150px;
+    margin-top: 150px;
+}
+img.t-active {
+    width: 42vw;
+    margin-top: 45px;
+    left: 30%;
+}
+div.divtimeline h1 {
+    font-size: 28px;
+}
+div.divtimeline h5 {
+    font-size: 16px;
+}
+div.divtimeline .col-20{
+    margin-top: 5px;
+}
+
+div#fh5co-timetable {
+    padding: 0px 0 100px 0;
+}
+div#fh5co-timetable h3{
+    font-size: 12px;
+    font-weight:400;
+}
+div#fh5co-timetable h3.selected{
+    color: #e78c24;
+    font-size: 14px;
+    font-weight:1000;
+}
+#t-day-1,
+#t-day-2,
+#t-day-3{
+    display: none;
+}
+div#fh5co-timetable #t-day{
+    display:block;
+}
+img#pat-timetable{
+    height: 200px;
+    right: -150px;
+    margin-top: 0px;
+}
+img#flo-1{
+    width: 80px;
+    right: 40px;
+    margin-top: 0;
+}
+
+img#flo-t-1{
+    width: 80px;
+    left: 15px;
+}
+img#flo-t-2{
+    width: 50px;
+    left: 100px;
+    margin-top: -45px;
+}
+
+div.divtestimonials{
+    padding: 60px 0;
+    background-size: auto 100%;
+    background-position: top;
+}
+div.divtestimonials .t-content {
+    margin-top: 30px;
+}
+div.divtestimonials .item .mt {
+    margin-top: 0px; 
+    padding-top: 0px;
+}
+div.divtestimonials h5 {
+    font-size: 18px;
+}
+img#flo-3{
+	right: -30px;
+	margin-top: -30px;
+}
+div.divjudges img.img-70 {
+    width: 50%;
+}

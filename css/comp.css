@@ -1,0 +1,32 @@
+body{
+
+}
+h1{
+	margin-bottom: 0px;
+}
+h5{
+	font-size: 18px;
+	text-align: justify;
+	margin-left: 5%;
+}
+h5+a.btn{
+	margin-left: 5%;
+}
+div.clearfix.hidden-xs-block{
+	margin-bottom: 5vh;
+}
+
+@media screen and (max-width: 767px){
+div.clearfix.hidden-xs-block{
+	margin-bottom: 0px;
+}	
+div.col-sm-6{
+	margin-bottom:5vh;
+}
+h5{
+	margin-left: 10px;
+}
+h5+a.btn{
+	margin-left: 10px;
+}
+}
